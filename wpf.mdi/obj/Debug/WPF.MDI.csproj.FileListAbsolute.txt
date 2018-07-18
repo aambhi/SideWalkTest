@@ -18,3 +18,12 @@ F:\Project Works\SideWalk\SideWalk\SWPermit22Jul\WPF.MDI\obj\Debug\Themes\Generi
 F:\Project Works\SideWalk\SideWalk\SWPermit22Jul\WPF.MDI\obj\Debug\WPF.MDI.g.resources
 F:\Project Works\SideWalk\SideWalk\SWPermit22Jul\WPF.MDI\obj\Debug\WPF.MDI.dll
 F:\Project Works\SideWalk\SideWalk\SWPermit22Jul\WPF.MDI\obj\Debug\WPF.MDI.pdb
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\WPF.MDI\bin\Debug\WPF.MDI.dll
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\WPF.MDI\bin\Debug\WPF.MDI.pdb
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\WPF.MDI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\WPF.MDI\obj\Debug\WPF.MDI_MarkupCompile.cache
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\WPF.MDI\obj\Debug\WPF.MDI_MarkupCompile.lref
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\WPF.MDI\obj\Debug\Themes\Generic.baml
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\WPF.MDI\obj\Debug\WPF.MDI.g.resources
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\WPF.MDI\obj\Debug\WPF.MDI.dll
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\WPF.MDI\obj\Debug\WPF.MDI.pdb

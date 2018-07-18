@@ -162,3 +162,17 @@ F:\Project Works\SideWalk\SideWalk\SWPermit22Jul\Sidewalk.Logic\bin\Debug\log4ne
 F:\Project Works\SideWalk\SideWalk\SWPermit22Jul\Sidewalk.Logic\obj\Debug\Sidewalk.Logic.csprojResolveAssemblyReference.cache
 F:\Project Works\SideWalk\SideWalk\SWPermit22Jul\Sidewalk.Logic\obj\Debug\Sidewalk.Logic.dll
 F:\Project Works\SideWalk\SideWalk\SWPermit22Jul\Sidewalk.Logic\obj\Debug\Sidewalk.Logic.pdb
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\Sidewalk.Logic.dll.config
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\Sidewalk.Logic.dll
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\Sidewalk.Logic.pdb
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\AutoMapper.dll
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\EntityFramework.dll
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\EntityFramework.SqlServer.dll
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\log4net.dll
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\Oracle.ManagedDataAccess.dll
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\AutoMapper.xml
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\EntityFramework.xml
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\EntityFramework.SqlServer.xml
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\bin\Debug\log4net.xml
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\obj\Debug\Sidewalk.Logic.dll
+F:\Project Works\SideWalk\git.SideWalk\SWPermit\Sidewalk.Logic\obj\Debug\Sidewalk.Logic.pdb

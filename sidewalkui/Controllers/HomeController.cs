@@ -109,6 +109,7 @@ namespace SidewalkUI.Controllers
             return Json(token, JsonRequestBehavior.AllowGet);
         }
 
+        //Get All Affidavit
         [HttpGet]
         public ActionResult GetAllAffidavit()
         {
