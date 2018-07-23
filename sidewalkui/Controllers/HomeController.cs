@@ -140,6 +140,7 @@ namespace SidewalkUI.Controllers
             return null;
         }
 
+        //Get All TrackIt Data
         [HttpGet]
         public ActionResult GetAllTrackIT()
         {
