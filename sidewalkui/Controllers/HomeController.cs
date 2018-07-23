@@ -140,7 +140,7 @@ namespace SidewalkUI.Controllers
             return null;
         }
 
-        //Get All TrackIt Data
+        //Get All TrackIt Data dated 24/07/2018
         [HttpGet]
         public ActionResult GetAllTrackIT()
         {
