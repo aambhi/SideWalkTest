@@ -8988,3 +8988,35 @@ An Entity with Key (PK) will not round-trip when:
 2018-07-18 07:37:22,030 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
 2018-07-18 08:26:05,409 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
 2018-07-18 08:26:05,723 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-18 16:57:11,254 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-18 16:57:11,514 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-18 20:00:00,069 [DefaultQuartzScheduler_Worker-1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started at: 07/18/2018 8:00:00 PM
+2018-07-18 20:00:00,444 [DefaultQuartzScheduler_Worker-1] INFO  SidewalkUI.JobScheduler.JobScheduler Job ended at: 07/18/2018 8:00:00 PM
+2018-07-22 03:47:51,323 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-22 03:47:52,118 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-22 04:17:59,241 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-22 04:17:59,500 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-22 11:21:24,010 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-22 11:21:24,377 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-22 17:37:25,643 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-22 17:37:25,844 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-22 17:38:29,471 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-22 17:38:29,596 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-22 20:36:04,353 [DefaultQuartzScheduler_Worker-1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started at: 07/22/2018 8:36:04 PM
+2018-07-22 20:36:05,286 [DefaultQuartzScheduler_Worker-1] INFO  SidewalkUI.JobScheduler.JobScheduler Job ended at: 07/22/2018 8:36:05 PM
+2018-07-22 21:29:48,106 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-22 21:29:48,490 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-22 22:07:57,392 [93] ERROR SidewalkUI.Api.SidewalkApiController The specified cast from a materialized 'System.DateTime' type to the 'System.String' type is not valid.
+2018-07-22 22:08:29,716 [93] ERROR SidewalkUI.Api.SidewalkApiController The specified cast from a materialized 'System.DateTime' type to the 'System.String' type is not valid.
+2018-07-22 22:15:48,604 [65] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-22 22:15:48,924 [65] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-22 22:37:18,576 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-22 22:37:18,755 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-22 22:43:03,562 [6] ERROR SidewalkUI.Api.SidewalkApiController An error occurred while updating the entries. See the inner exception for details.
+2018-07-22 22:45:45,332 [26] ERROR SidewalkUI.Api.SidewalkApiController An error occurred while updating the entries. See the inner exception for details.
+2018-07-22 22:47:42,632 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-22 22:47:42,829 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-24 00:44:26,126 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-24 00:44:26,754 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.
+2018-07-24 02:05:14,714 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job started.
+2018-07-24 02:05:15,024 [1] INFO  SidewalkUI.JobScheduler.JobScheduler Job Scheduled.

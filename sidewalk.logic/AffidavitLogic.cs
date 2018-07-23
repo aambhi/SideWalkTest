@@ -1,5 +1,6 @@
 ﻿using Sidewalk.Logic.Database;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -638,23 +639,35 @@ namespace Sidewalk.Logic
             return lstAffidavit;
         }
 
-        public List<AffidavitModel> GetAllTrackIT()
+        public List<IEnumerable> GetAllTrackIT()
         {
-            var result = (from track in context.TrackIT
-                          join affidavit in context.Affidavit on track.AffidavitId equals affidavit.AffidavitID
-                          join stat in context.AffidavitStatus on track.StatusId equals stat.AffidavitStatusId
-                          select new { track, affidavit, stat })
-                          .Select(x => new AffidavitModel
-                          {
-                              AffidavitId = x.track.AffidavitId,
-                              PropertyAddress = x.affidavit.SiteStreetNumber,
-                              StatusId = x.track.StatusId,
-                              Status = x.stat.Status,
-                              RequestedDate = x.track.RequestedDate,
-                              Comments = x.track.Comments
+            var results = new SWPostEntities()
+               .MultipleResults("PROC_GETTRACKIT_SWP")
+               .With<AffidavitModel>()
+               .With<AffidavitModel>()
+               .Execute();
 
-                          }).ToList();
-            return result;
+
+            return results;
+        }
+
+        public bool SaveTrackItDetails(AffidavitModel aff)
+        {
+            context = new SWPostEntities();
+            FormsAndFinalInspections form = new FormsAndFinalInspections();
+            try
+            {
+                form.AffidavitId = aff.AffidavitId;
+                form.Comments = aff.Comments;
+                form.RequestedDate = DateTime.Now;
+                context.FormsAndFinalInspections.Add(form);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return true;
         }
     }
 }

@@ -16,5 +16,12 @@ namespace Sidewalk.Logic.Database
         public bool? IsHighlightOwner { get; set; }
         public DateTime? RequestedDate { get; set; }
         public string Comments { get; set; }
+        public string SiteAddress { get; set; }
+        public string ContactName { get; set; }
+        public string ContactNumber { get; set; }
+        public string DatePermitExpires { get; set; }
+        public string Attachment { get; set; }
     }
+
+
 }

@@ -3,6 +3,7 @@ using Sidewalk.Logic;
 using Sidewalk.Logic.Database;
 //using SidewalkUI.Models;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Threading.Tasks;
@@ -760,7 +761,7 @@ namespace SidewalkUI.Api
             }
         }
 
-        public List<AffidavitModel> GetAllTrackIT()
+        public List<IEnumerable> GetAllTrackIT()
         {
             try
             {
@@ -770,6 +771,19 @@ namespace SidewalkUI.Api
             {
                 Log.Error(ex.Message);
                 return null;
+            }
+        }
+
+        public bool SaveTrackItDetails(AffidavitModel aff)
+        {
+            try
+            {
+                return affidavitLogic.SaveTrackItDetails(aff);
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex.Message);
+                return false;
             }
         }
 

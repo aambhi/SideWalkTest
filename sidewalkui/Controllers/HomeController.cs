@@ -1,9 +1,11 @@
-﻿using SidewalkUI.Api;
+﻿using Sidewalk.Logic.Database;
+using SidewalkUI.Api;
 using SidewalkUI.Common;
 using SidewalkUI.Filters;
 using SidewalkUI.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 
 namespace SidewalkUI.Controllers
@@ -109,7 +111,7 @@ namespace SidewalkUI.Controllers
             return Json(token, JsonRequestBehavior.AllowGet);
         }
 
-        //Get All Affidavit
+        //Get All Affidavit ambi
         [HttpGet]
         public ActionResult GetAllAffidavit()
         {
@@ -142,7 +144,30 @@ namespace SidewalkUI.Controllers
         public ActionResult GetAllTrackIT()
         {
             var result = api.GetAllTrackIT();
-            return View(result);
+            var lstTrackIt = (List<AffidavitModel>)result[0];
+            var lstAffidavitStatus = (List<AffidavitModel>)result[1];
+
+            var lstSiteAddress = (from company in lstAffidavitStatus
+                                  select company).ToList().Select(c => new SelectListItem
+                                  {
+                                      Value = c.AffidavitId.ToString(),
+                                      Text = c.SiteAddress
+                                  });
+            ViewData["GetSiteAddress"] = new SelectList(lstSiteAddress, "Value", "Text");
+            ViewData["GetAffidavit"] = new SelectList(lstSiteAddress, "Value", "Value");
+            ViewBag.AffidavitData = lstAffidavitStatus;
+
+            return View(lstTrackIt);
+        }
+
+        public JsonResult SaveTrackItDetails(string affidavitId, string comments)
+        {
+            AffidavitModel aff = new AffidavitModel();
+            aff.AffidavitId = Convert.ToInt64(affidavitId);
+            aff.Comments = comments;
+
+            var result = api.SaveTrackItDetails(aff);
+            return Json(true, JsonRequestBehavior.AllowGet);
         }
 
     }
